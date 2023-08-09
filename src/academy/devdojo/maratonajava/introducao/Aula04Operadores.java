@@ -75,6 +75,5 @@ public class Aula04Operadores {
         contador--;
         System.out.println("Contador é " + contador + "\n");
 
-
     }
 }
