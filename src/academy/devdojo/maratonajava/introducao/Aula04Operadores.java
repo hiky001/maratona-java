@@ -71,9 +71,10 @@ public class Aula04Operadores {
         //
         int contador = 0;
         contador += 1;
-        contador ++;
-        contador --;
+        contador++;
+        contador--;
         System.out.println("Contador é " + contador + "\n");
+
 
     }
 }
