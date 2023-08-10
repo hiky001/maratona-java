@@ -24,5 +24,12 @@ public class Aula05EstruturasCondicionais02 {
                 System.out.println("Você está na Categoria Adulto");
             }
         }
+        /*
+        Também é possível fazer o mesmo que acima faz com if else so que com operador ternário como mostrado abaixo, porém não recomendado
+
+        String categoria;
+        categoria = idade < 15 ? "Categoria Infantil" : idade >= 15 && idade < 18 ? "Categoria Juvenil" : "Categoria Adulto";
+        System.out.println(categoria);
+         */
     }
 }
