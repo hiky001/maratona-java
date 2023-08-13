@@ -9,7 +9,7 @@ public class Aula05EstruturasCondicionais03 {
 
         double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de seu salário:"));
 
-        String resultado = salario > 5000 ? "Eu vou doar 500 reais para o DevDojo" : "Ainda não tenho condições para doar";
+        String resultado = (salario > 5000) ? "Eu vou doar 500 reais para o DevDojo" : "Ainda não tenho condições para doar";
         System.out.println(resultado);
     }
 }
