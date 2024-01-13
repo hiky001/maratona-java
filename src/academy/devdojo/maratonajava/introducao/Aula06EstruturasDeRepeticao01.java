@@ -8,7 +8,7 @@ public class Aula06EstruturasDeRepeticao01 {
 
         while(count < 10){
             System.out.println("while " + count);
-            count++;
+            ++count;
             /*
             count++ imprime de 0 à 9
             ++count imprime 1 à 10
@@ -19,7 +19,8 @@ public class Aula06EstruturasDeRepeticao01 {
         count = 0;
 
         do {
-            System.out.println("do while " + ++count);
+            System.out.println("do while ");
+            ++count;
 
         }while(count < 10);
         //do while sempre primeiro executa a ação, dps verifica a condição, por isso a contagem vai de 1 à 10 e por conta do ++count, primeiro

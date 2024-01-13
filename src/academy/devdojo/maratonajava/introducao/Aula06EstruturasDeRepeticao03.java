@@ -8,6 +8,7 @@ public class Aula06EstruturasDeRepeticao03 {
         for (int i = 0; i <= valorMaximo; i++) {
             if (i > 25){
                 break;
+                //o break so pode ser usado dentro de um laço de repetição ou switch
             }
             System.out.println(i);
         }

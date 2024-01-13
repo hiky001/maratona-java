@@ -68,7 +68,7 @@ public class Aula04Operadores {
         System.out.println("Bonus4 é de " + bonus4);
         System.out.println("Bonus5 é de " + bonus5 + "\n");
 
-        //
+        // ++ --
         int contador = 0;
         contador += 1;
         contador++;
